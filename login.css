@@ -43,15 +43,18 @@ body {
     font-size: 14px;
     letter-spacing: 1px;
   }
-  .container button {
+  .container #submit {
     background-color:rgba(38, 55, 114, 0.8);
     color: #fff;
     border: none;
     width: 100%;
-    padding: 10px 30px;
+     height: 2.3rem;
     border-radius: 5px;
     cursor: pointer;
     font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     transition: background-color 0.3s ease; 
   }
   .container button:hover {
@@ -78,3 +81,4 @@ body {
     color: #007bff; 
     text-decoration: none;
   }
+  
